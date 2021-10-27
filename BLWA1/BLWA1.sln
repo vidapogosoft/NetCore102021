@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLWA1", "BLWA1.csproj", "{CE37415D-DD70-4104-AD8D-9294A912C409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE37415D-DD70-4104-AD8D-9294A912C409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE37415D-DD70-4104-AD8D-9294A912C409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE37415D-DD70-4104-AD8D-9294A912C409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE37415D-DD70-4104-AD8D-9294A912C409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBEF9CD2-A4A0-4F47-8707-B7E07E70E46A}
+	EndGlobalSection
+EndGlobal

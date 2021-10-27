@@ -1,0 +1,67 @@
+﻿@page
+@model RazorPages1.Pages.Registrado.IndexModel
+
+@{
+    ViewData["Title"] = "Order Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Registrados</h1>
+    <p>Registrados en el sistema</p>
+</div>
+
+<div class="text-center mt-4 mb-4">
+    <a asp-page="/Registrado/Create" class="btn btn-primary text-light btn-lg">Crear nuevo registro</a>
+</div>
+
+
+<table class="table">
+
+    <tr>
+        <th>
+            IdRegistrado
+        </th>
+        <th>
+            Identificacion
+        </th>
+        <th>
+            Nombres
+        </th>
+        <th>
+            Apellidos
+        </th>
+        <th>
+            NombresCompletos
+        </th>
+        <th></th>
+    </tr>
+
+    @if (Model.ListRegistrados.Count() != 0)
+    {
+
+        @foreach (var item in Model.ListRegistrados)
+        {
+            <tr>
+                <td>
+                    @item.IdRegistrado
+                </td>
+                <td>
+                    @item.Identificacion
+                </td>
+                <td>
+                    @item.Nombres
+                </td>
+                <td>
+                    @item.Apellidos
+                </td>
+                <td>
+                    @item.NombresCompletos
+                </td>
+                <td>
+                </td>
+            </tr>
+        }
+    }
+    </table>
+
+
